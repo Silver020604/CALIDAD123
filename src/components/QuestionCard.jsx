@@ -119,15 +119,13 @@ export default function QuestionCard({
               )
             }
           />
-        </div>
-      )}
 
-      {image && (
-        <img
-          src={URL.createObjectURL(image)}
-          alt="evidencia"
-          className="preview"
-        />
+          {image && (
+            <p className="photo-confirm">
+              ✅ Foto guardada: {image.name}
+            </p>
+          )}
+        </div>
       )}
 
     </div>

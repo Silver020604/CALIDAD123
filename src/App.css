@@ -96,3 +96,9 @@ summary {
 .camera-btn:hover {
   background: #bb2d3b;
 }
+.photo-confirm {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #198754;
+  font-weight: bold;
+}
